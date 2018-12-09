@@ -1,0 +1,42 @@
+.invoice-revision-container {
+  background-color: #fff;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.invoice-revision-title {
+  font-weight: 600;
+}
+
+.invoice-revision-content {
+  background-color: #fff;
+  margin-top: 2px;
+}
+
+.custom-row .custom-col {
+  border-right: 2px solid #f8f9fa;
+}
+
+.bill-to {
+  margin-top: 8px;
+  font-weight: bolder;
+}
+
+.balance-title {
+  margin-top: 8px;
+}
+
+.invoice-content-column {
+  margin-top: 8px;
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.balance-title {
+  font-weight: bolder;
+}
+
+.balance {
+  margin-top: 5px;
+  color: orange;
+}

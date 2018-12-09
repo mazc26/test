@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.notification-container {
+  position: relative;
+  margin-right: 10px;
+}
+
+.right-container {
+  display: inline-flex;
+  position: absolute;
+  right: 15px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.app-container {
+  margin: 0 auto;
+  background-color: #f8f9fa;
+}
+
+/* Custom app css */
+
+.content-container {
+  background-color: #f8f9fa;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-logo {
+  width: 45px;
+}
+
+.nav-container .billing-container .billing-nav:hover {
+  color: #42C0FB;
+}
+
+.js-dropdown {
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  color: #fff;
+  display: inline-flex;
+}
+
+.dropdown-toggle {
+  display: inline-flex;
+}
+
+.notification-number {
+  position: absolute;
+  font-size: 8px;
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 12px;
+  height: 13px;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  font-weight: bolder;
+  right: 5px;
+}
+
+/* end Custom app css */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

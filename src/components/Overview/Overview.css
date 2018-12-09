@@ -1,0 +1,32 @@
+.overview-container {
+  background-color: #fff;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.invoice-revision-title {
+  font-weight: 600;
+}
+
+.overview-content {
+  background-color: #fff;
+  margin-top: 2px;
+}
+
+.custom-row .custom-col {
+  border-right: 2px solid #f8f9fa;
+}
+
+.overview-column {
+  margin-top: 8px;
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.overview-status {
+  margin-left: 5px;
+}
+
+.bottom {
+  margin-top: 25px;
+}

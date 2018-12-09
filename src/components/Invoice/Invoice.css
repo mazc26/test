@@ -1,0 +1,10 @@
+.invoice-container {
+  padding-top: 10px;
+}
+
+.invoice-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 5px;
+  padding: 10px;
+}
