@@ -64,3 +64,7 @@ code {
   outline: none;
 }
 
+.last {
+  margin-bottom: 20px;
+}
+

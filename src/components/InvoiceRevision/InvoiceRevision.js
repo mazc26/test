@@ -36,7 +36,7 @@ const InvoiceRevision = () => {
                 <div className="invoice-content-column">
                   7/31/18
                 </div>
-                <div className="invoice-content-column">
+                <div className="invoice-content-column last">
                   Net 0
                 </div>
               </div>

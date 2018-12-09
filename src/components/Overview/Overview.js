@@ -89,7 +89,7 @@ const Overview = props => {
                 <div className="overview-column bold">
                   Deconsolidation, Custom clearance
                 </div>
-                <div className="overview-column bold bottom">
+                <div className="overview-column bold bottom last">
                   Lithium Batteries, Hazmat, Other
                 </div>
               </div>
