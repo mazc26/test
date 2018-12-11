@@ -17,7 +17,7 @@ const MapDiagram = () => {
             <Tab>Map</Tab>
           </TabList>
           <div className="map-diagram-title bold">
-            Stepper and map
+            Text
           </div>
           <TabPanel>
             <Diagram />

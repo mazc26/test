@@ -35,13 +35,11 @@
 
 .app-container {
   margin: 0 auto;
-  background-color: #f8f9fa;
 }
 
 /* Custom app css */
 
 .content-container {
-  background-color: #f8f9fa;
   max-width: 1200px;
   margin: 0 auto;
 }

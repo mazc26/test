@@ -1,7 +1,12 @@
+.overview-main {
+  margin-bottom: 30px;
+}
+
 .overview-container {
   background-color: #fff;
   padding: 5px;
   margin-top: 10px;
+  margin-bottom: -22px;
 }
 
 .invoice-revision-title {

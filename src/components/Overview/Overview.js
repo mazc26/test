@@ -8,7 +8,7 @@ import './Overview.css';
 library.add(faCheck, faTimes);
 const Overview = props => {
   return(
-    <div>
+    <div className="overview-main">
       <div className="overview-container">
         <span className="invoice-revision-title">OVERVIEW</span>
       </div>

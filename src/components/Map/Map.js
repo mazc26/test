@@ -7,8 +7,8 @@ const Map = () => {
     <div>
       <img 
         className="map"
-        src={process.env.PUBLIC_URL + '/map.png'} 
-        alt="main-logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Mapa_mundi_blanco.PNG"
+        alt="map"
       />
     </div>
   )

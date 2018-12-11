@@ -1,18 +1,62 @@
 import React from 'react';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faIndustry } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import './Diagram.css';
+
+library.add(faIndustry);
 
 const Diagram = () => {
   return(
-    <div class="container">
-      <ul className="progressbar">
-        <li>Mobile Details</li>
-        <li>Upload</li>
-        <li>Payment</li>
-        <li>Get article</li>
-        <li>Enjoy</li>
-        <li>Keep Enjoying</li>
-        <li>Repeat</li>
+    <div className="diagram-container">
+    <div className="divider"></div>
+      <ul className="row custom-row">
+        <li className="col-md-2">
+          <div className="icon-container">
+          <FontAwesomeIcon
+            icon="industry"
+            size="lg"
+          />
+          </div>
+        </li>
+        <li className="col-md-2">
+          <div className="icon-container">
+          <FontAwesomeIcon
+            icon="industry"
+            size="lg"
+          />
+          </div>
+        </li>  <li className="col-md-2">
+          <div className="icon-container">
+          <FontAwesomeIcon
+            icon="industry"
+            size="lg"
+          />
+          </div>
+        </li>  <li className="col-md-2">
+          <div className="icon-container">
+          <FontAwesomeIcon
+            icon="industry"
+            size="lg"
+          />
+          </div>
+        </li>  <li className="col-md-2">
+          <div className="icon-container">
+          <FontAwesomeIcon
+            icon="industry"
+            size="lg"
+          />
+          </div>
+        </li>  <li className="col-md-2">
+          <div className="icon-container">
+          <FontAwesomeIcon
+            icon="industry"
+            size="lg"
+          />
+          </div>
+        </li>
       </ul>
     </div>
   );
